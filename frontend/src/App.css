@@ -1,0 +1,191 @@
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+.formulario {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  gap: 4px;
+}
+
+input,
+select,
+button {
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid #b9c2b5;
+  border-radius: 6px;
+}
+
+button {
+  background: #2f7d32;
+  color: white;
+  border-color: #2f7d32;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e3e7e0;
+}
+
+.error {
+  color: #b3261e;
+  background: #fdecea;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.pestanas {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.pestanas button {
+  background: white;
+  color: #2f7d32;
+}
+
+.pestanas button.activa {
+  background: #2f7d32;
+  color: white;
+}
+
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.ingrediente-fila {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ingrediente-fila span {
+  min-width: 28px;
+}
+
+button.secundario {
+  background: white;
+  color: #2f7d32;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+td ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+button.chico {
+  padding: 4px 8px;
+  font-size: 0.85rem;
+}
+
+.acciones {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+tr.inactivo td {
+  color: #888;
+  background: #eeeeea;
+}
+
+.opciones {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+
+.opciones label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.opciones input {
+  padding: 0;
+}
+
+.nota {
+  font-size: 0.9rem;
+  color: #4a5a4a;
+}
+
+.bloque-nuevo {
+  background: #eaf3ea;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.vista-previa {
+  margin-bottom: 16px;
+}
+
+tr.falta td {
+  color: #b3261e;
+  font-weight: 600;
+}
+
+.tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: white;
+  border: 1px solid #e3e7e0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.tarjeta .detalle {
+  flex: 1;
+  min-width: 220px;
+}
+
+.obtenida {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  gap: 4px;
+}
+
+.exito {
+  color: #1b5e20;
+  background: #e6f4e7;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
